@@ -1,0 +1,245 @@
+
+/* Definiciones Nav */ 
+.nav{ background-color: rgb(160, 223, 223);
+    height: 30px;
+    width: 1308px;
+}
+
+.nav  li{
+    list-style: none;
+    display: inline;
+    position: relative;
+    font-size: 15px;
+    padding: 0 20px;
+    }
+    ul li a{text-decoration: none;}
+
+.subcustodia{display: none;
+position: absolute;}
+
+
+.subcustodia li{
+    display: block;
+    background-color: rgb(160, 223, 223);
+}
+
+
+.subcomplementarios{display: none;
+    position: absolute;}
+    
+    
+.subcomplementarios li{
+        display: block;
+        background-color: rgb(160, 223, 223);
+    }
+.nav li:hover ul{
+    display: block;
+}
+
+
+
+    /*         Definiciones Main         */ 
+
+      /****************************/ 
+     /********Custodias***********/ 
+     /****************************/ 
+
+     
+    .custodias{
+        background-image: url(./imagenes/vip2.jpg);
+        margin-top: 10px;
+        width: 1300px;
+        height: 340px;
+        display: inline-block;
+        }
+
+        
+        .custodias div{
+            margin-top: 150px;
+            margin-left: 550px;
+            width: 250px;
+            height: 50px;
+            font-size: 40px;
+            color: aliceblue;
+            
+            position: absolute;
+
+        }
+       
+        
+        /****************************/ 
+        /*******Custodia VIP*********/
+        /****************************/
+    
+    .pricvip{
+        
+        display: inline-block;
+        margin-top: 10px;
+        width: 1300px;
+        height: 340px;
+       
+    }
+        .img1cvip{
+        
+        display: inline-block;
+        margin-left: 150px;
+        margin-top: 5px;
+        width: 390px;
+        height: 300px;
+        position: absolute;
+    }
+    
+        .txt1cvip{
+           
+            display: inline-block;
+            margin-left: 650px;
+            margin-top: 10px;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            justify-content: center;
+            }
+.seccvip{
+    
+    display: inline-block;
+        margin-top: 10px;
+        width: 1300px;
+        height: 340px;
+}
+    
+
+.txt2cvip{
+       
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 5px;
+    width: 390px;
+    height: 300px;
+    position: absolute;
+    }
+
+.img2cvip{
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    justify-content: center;
+    }
+
+
+   /****************************/ 
+   /****Seguridad perimetral****/
+   /****************************/
+    
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+        
+     /****************************/ 
+    /********perimetro***********/ 
+    /****************************/ 
+
+
+
+     .perimetral{
+            background-image: url(./imagenes/perimetral.jpg);
+            border: solid;
+            width: 1300px;
+            height: 350px;
+            display:inline-block;} 
+
+            
+
+     /****************************/ 
+    /********monitoreo***********/ 
+    /****************************/                 
+      
+       .monitoreo{ width: 1300px;
+             background-image: url(./imagenes/monitoreo.jfif);
+             border: solid;
+             height: 350px;
+             display:inline-block;}
+         
+             .monitoreo div{
+                margin-top: 150px;
+                margin-left: 550px;
+                width: 250px;
+                height: 50px;
+                font-size: 40px;
+                color: aliceblue;
+                
+                position: absolute;
+    
+            }     
+
+/*         Definiciones Footer         */ 
+.footer{
+    background-color: rgb(160, 223, 223);
+        width: 1308px;
+        height: 50px;
+        display:inline-block;}
+
+
+
+
+
+
+
+
+
+    /****************************/ 
+    /********Staff***********/ 
+    /****************************/ 
+
+    .staff{
+        
+        display: inline-block;
+        margin-top: 10px;
+        width: 1300px;
+        height: 340px;
+       
+    }
+        .imgceo{
+        
+        display: inline-block;
+        margin-left: 150px;
+        margin-top: 5px;
+        width: 390px;
+        height: 300px;
+        position: absolute;
+    }
+    
+        .txtceo{
+           
+            display: inline-block;
+            margin-left: 650px;
+            margin-top: 10px;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            justify-content: center;
+            }
+
+
+/****************************/ 
+/********Clientes***********/ 
+/****************************/ 
+.grid{
+    
+    display: grid;
+    grid-template-columns: 300px 100px;
+    grid-template-rows: 40px 100px;
+}

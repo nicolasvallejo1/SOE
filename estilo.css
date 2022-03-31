@@ -44,11 +44,12 @@ position: absolute;}
      /********Custodias***********/ 
      /****************************/ 
 
-     
+   /*  
     .custodias{
         background-image: url(./imagenes/vip2.jpg);
         margin-top: 10px;
-        width: 1300px;
+        
+          width: 1300px;
         height: 340px;
         display: inline-block;
         }
@@ -154,7 +155,7 @@ position: absolute;}
 
 
 
-     .perimetral{
+   /*  .perimetral{
             background-image: url(./imagenes/perimetral.jpg);
             border: solid;
             width: 1300px;
@@ -166,7 +167,7 @@ position: absolute;}
      /****************************/ 
     /********monitoreo***********/ 
     /****************************/                 
-      
+     /* 
        .monitoreo{ width: 1300px;
              background-image: url(./imagenes/monitoreo.jfif);
              border: solid;
@@ -242,4 +243,9 @@ position: absolute;}
     display: grid;
     grid-template-columns: 300px 100px;
     grid-template-rows: 40px 100px;
+}
+@media screen and (max-width: 500px){
+    .nav li{
+        display: block;
+    }
 }

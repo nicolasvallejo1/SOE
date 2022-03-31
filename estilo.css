@@ -247,11 +247,7 @@ position: absolute;}
 
 
 
-        @media screen and (max-width: 500px){
-            .nav li{
-                display: block;
-            }
-        }
+       
 
         @media screen and (max-width: 500px){
             .priindex{

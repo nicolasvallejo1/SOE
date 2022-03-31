@@ -341,4 +341,22 @@ position: absolute;}
                 width: 450px;
                 padding: 150 px;}
         }
-      
+       
+        @media screen and (max-width: 500px){
+
+            .grid{
+                margin-top: 10px;
+                display: grid;
+                grid-template-columns: 3fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-areas: 
+                "bmw"
+                "pfizer" 
+                "toyota"
+                "coca"
+                ;
+            }
+
+
+
+        }

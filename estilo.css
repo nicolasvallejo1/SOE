@@ -251,20 +251,29 @@ position: absolute;}
 
         @media screen and (max-width: 500px){
             .priindex{
-                display: block;
+        
+                border: solid black;
+                margin-top: 10px;
+                width: 800px;
+                height: 750px;
+               
+            }
             }
             @media screen and (max-width: 500px){
                 .img1index{
+                    margin-left: 0px;
                     display: block;
                 }
                 
             }
             @media screen and (max-width: 500px){
                 .img2index{
-                    display: block;
+                    margin-top: 390px;
+                    margin-left: 200px;
                 }
                 
-            }
+                
+            
 
 
 
@@ -272,19 +281,33 @@ position: absolute;}
         }
         @media screen and (max-width: 500px){
             .secindex{
-                display: block;
-            }
+                margin-left: 5px;
+                border: solid black;
+                margin-top: 10px;
+                width: 800px;
+                height: 900px;}
+            
             
         }
         @media screen and (max-width: 500px){
             .img1secindex{
                 display: block;
+                margin-left: 50px;
             }
             
         }
         @media screen and (max-width: 500px){
             .img2secindex{
                 display: block;
+                margin-top: 400px;
+                margin-left: 50px;
             }
             
         }
+        @media screen and (max-width: 500px){
+            .nav{
+                height: 120px;
+                width: 450px;
+                padding: 150 px;}
+        }
+      

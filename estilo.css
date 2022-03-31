@@ -177,11 +177,7 @@ position: absolute;}
     grid-template-columns: 300px 100px;
     grid-template-rows: 40px 100px;
 }
-@media screen and (max-width: 500px){
-    .nav li{
-        display: block;
-    }
-}
+
 
 
 
@@ -242,3 +238,30 @@ position: absolute;}
         }
         
        
+
+
+
+/****************************/ 
+/********Media querys***********/ 
+/****************************/ 
+
+
+
+        @media screen and (max-width: 500px){
+            .nav li{
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 500px){
+            .priindex{
+                display: block;
+            }
+
+        }
+        @media screen and (max-width: 500px){
+            .secindex{
+                display: block;
+            }
+            
+        }

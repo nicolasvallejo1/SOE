@@ -3,14 +3,25 @@
 .nav{ background-color: rgb(160, 223, 223);
     height: 30px;
     width: 1308px;
+    padding: 150 px;
+    margin-left: 90px;
+  
+   
 }
-
+.logo{
+    
+    
+    width: 160px;
+    height: 150px;
+    margin-left: 45%;
+    text-align: center;
+}
 .nav  li{
     list-style: none;
     display: inline;
     position: relative;
     font-size: 15px;
-    padding: 0 20px;
+    padding: 0 60px;
     }
     ul li a{text-decoration: none;}
 
@@ -20,7 +31,9 @@ position: absolute;}
 
 .subcustodia li{
     display: block;
-    background-color: rgb(160, 223, 223);
+    background-color: rgb(160, 164, 223);
+    padding: 5px;
+    position: absolute;
 }
 
 
@@ -30,7 +43,7 @@ position: absolute;}
     
 .subcomplementarios li{
         display: block;
-        background-color: rgb(160, 223, 223);
+        background-color: rgb(46, 49, 49);
     }
 .nav li:hover ul{
     display: block;
@@ -38,34 +51,8 @@ position: absolute;}
 
 
 
-    /*         Definiciones Main         */ 
-
-      /****************************/ 
-     /********Custodias***********/ 
-     /*************************/ 
-
-   /*  
-    .custodias{
-        background-image: url(./imagenes/vip2.jpg);
-        margin-top: 10px;
+    
         
-          width: 1300px;
-        height: 340px;
-        display: inline-block;
-        }
-
-        
-        .custodias div{
-            margin-top: 150px;
-            margin-left: 550px;
-            width: 250px;
-            height: 50px;
-            font-size: 40px;
-            color: aliceblue;
-            
-            position: absolute;
-
-        }
        
         
         /****************************/ 
@@ -130,61 +117,7 @@ position: absolute;}
     }
 
 
-   /****************************/ 
-   /****Seguridad perimetral****/
-   /****************************/
-    
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-        
-     /****************************/ 
-    /********perimetro***********/ 
-    /****************************/ 
-
-
-
-   /*  .perimetral{
-            background-image: url(./imagenes/perimetral.jpg);
-            border: solid;
-            width: 1300px;
-            height: 350px;
-            display:inline-block;} 
-
-            
-
-     /****************************/ 
-    /********monitoreo***********/ 
-    /****************************/                 
-     /* 
-       .monitoreo{ width: 1300px;
-             background-image: url(./imagenes/monitoreo.jfif);
-             border: solid;
-             height: 350px;
-             display:inline-block;}
-         
-             .monitoreo div{
-                margin-top: 150px;
-                margin-left: 550px;
-                width: 250px;
-                height: 50px;
-                font-size: 40px;
-                color: aliceblue;
-                
-                position: absolute;
-    
-            }     
+     
 
 /*         Definiciones Footer         */ 
 .footer{
@@ -249,3 +182,63 @@ position: absolute;}
         display: block;
     }
 }
+
+
+
+
+  
+.priindex{
+        
+    display: inline-block;
+    margin-top: 10px;
+    width: 1300px;
+    height: 340px;
+   
+}
+    .img1index{
+    
+    display: inline-block;
+    margin-left: 95px;
+    margin-top: 5px;
+    width: 390px;
+    height: 300px;
+    position: absolute;
+}
+.img2index{
+    display: inline-block;
+    margin-left: 920px;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    justify-content: center;
+    }
+
+    .secindex{
+        margin-left: 95px;
+        
+        display: inline-block;
+        margin-top: 20px;
+        width: 1270px;
+        height: 500px;}
+    
+          .img1secindex{
+              display: inline-block;
+              margin-left: 0px;
+              margin-top: 25px;
+              width: 390px;
+              height: 300px;
+              position: absolute;
+          }
+          .img2secindex{
+            display: inline-block;
+            margin-left: 567px;
+            margin-top: 0px;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            justify-content: center;
+            
+        }
+        
+       

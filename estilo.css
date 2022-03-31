@@ -172,11 +172,42 @@ position: absolute;}
 /********Clientes***********/ 
 /****************************/ 
 .grid{
-    
+    margin-top: 10px;
     display: grid;
-    grid-template-columns: 600px 600px;
-    grid-template-rows: 600px 600px;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 3fr 3fr;
+    grid-template-areas: 
+    "bmw coca"
+    "pfizer toyota"
+    ;
 }
+
+.bmw{
+    grid-area: bmw;
+}
+.toyota{
+    grid-area: toyota;
+}
+.pfizer{
+    grid-area: pfizer;
+}
+.coca{
+    grid-area: coca;
+    justify-self: center;
+    align-self: center;
+}
+ .clientes{
+     text-align: center;
+     background-color: aqua;
+ }
+
+/****************************/ 
+/****************************/ 
+/****************************/ 
+
+
+
+
 
 
 

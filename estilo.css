@@ -257,10 +257,37 @@ position: absolute;}
             .priindex{
                 display: block;
             }
+            @media screen and (max-width: 500px){
+                .img1index{
+                    display: block;
+                }
+                
+            }
+            @media screen and (max-width: 500px){
+                .img2index{
+                    display: block;
+                }
+                
+            }
+
+
+
 
         }
         @media screen and (max-width: 500px){
             .secindex{
+                display: block;
+            }
+            
+        }
+        @media screen and (max-width: 500px){
+            .img1secindex{
+                display: block;
+            }
+            
+        }
+        @media screen and (max-width: 500px){
+            .img2secindex{
                 display: block;
             }
             
